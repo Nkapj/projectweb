@@ -1,0 +1,53 @@
+
+.container {
+    max-width: 1400px;
+}
+
+.live{
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.ecole {
+    max-width: 300px;
+    height: auto;
+}
+
+
+footer ul{
+    list-style: none;
+}
+
+footer {
+    padding: 20px 0;
+    background-color: #7393b4;
+}
+
+footer h3 {
+    margin-bottom: 20px;
+}
+
+/* texte des articles */
+article {
+    font-family: serif;
+}
+
+/* titres */
+h1, h2, h3, h4 {
+    font-family: sans-serif;
+}
+
+/* menus */
+nav {
+    font-family: monospace;
+}
+
+.allana img {
+    margin-right: 40px;
+}
+
