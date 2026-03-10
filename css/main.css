@@ -163,6 +163,10 @@ article {
     margin-right: 16px;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 h2, h3, h4 {
     font-family: 'Playfair Display', serif;
 }
