@@ -1,9 +1,15 @@
+body{
+    overflow-x: hidden;
+}
+.container.navbar {
+    --bs-navbar-padding-y: 0;
+}
 
 .container {
     max-width: 1400px;
 }
 
-.live{
+.live {
     color: red;
 }
 
@@ -12,19 +18,16 @@ a {
     color: black;
 }
 
-
 .ecole {
-    max-width: 300px;
+    width: 100%;
     height: auto;
 }
 
-
-footer ul{
+ul {
     list-style: none;
 }
 
 footer {
-    padding: 20px 0;
     background-color: #7393b4;
 }
 
@@ -32,22 +35,184 @@ footer h3 {
     margin-bottom: 20px;
 }
 
-/* texte des articles */
 article {
     font-family: serif;
+    overflow: hidden;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 15px;
 }
 
-/* titres */
-h1, h2, h3, h4 {
-    font-family: sans-serif;
+.article-content{
+    width: 800px;
+    margin: 0 auto;
 }
 
-/* menus */
-nav {
-    font-family: monospace;
+.titre {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 85px;
+    line-height: 1;
 }
 
-.allana img {
-    margin-right: 40px;
+.label{
+    font-family: 'UnifrakturCook', cursive;
 }
+
+.logo{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.div-titre {
+    padding: 20px;
+}
+
+.seconnav {
+    padding: 10px;
+}
+
+.btn1 {
+    border-radius: 50%;
+    color: black;
+    font-size: 0.8rem;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.btn2 {
+    border-radius: 999px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    width: 250px;
+    height: 40px;
+    background: #000;
+    color: white;
+}
+
+.btn3{
+    border-radius: 999px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    width: 80px;
+    height: 40px;
+    background: #000;
+    color: white;
+    margin-left: 15px;
+}
+
+.art{
+    font-family: 'Playfair Display', serif ;
+    font-size: 50px;
+    padding: 20px;
+}
+
+#Search {
+    border-radius:99px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    width: 250px;
+    height: 40px;
+    background: #fff;
+    color: black;
+    padding: 10px;
+}
+
+.love{
+    padding: 20px;
+}
+
+.app,.play{
+    border-radius: 999px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    width: 250px;
+    height: 40px;
+    background: #000;
+    color: white;
+}
+
+.allana{
+    object-fit: cover;
+    height: 80%;
+    width: 50%;
+}
+
+.firstnav li a {
+    font-size: 15px;
+}
+
+.thirdnav li a {
+    font-size: 14px;
+}
+
+.thirdnav {
+    border-bottom: 1px solid #767676;
+}
+
+.fourthnav {
+    padding: 15px 0;
+}
+
+.separador::before {
+    content: "|";
+    color: gray;
+    margin-right: 16px;
+}
+
+h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+.red {
+    color: red;
+}
+
+.com {
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.ecole,.coulor{
+    margin-top: 10px;
+}
+
+.exclu {
+    padding-bottom: 10px;
+}
+
+.gral, .ana, .ultimo, .edi, .observ {
+    padding-top: 20px;
+}
+
+.edi{
+    color: goldenrod;
+}
+
+.liste li {
+    margin-bottom: 10px;
+}
+
+.ultimo{
+    margin-bottom: 15px;
+}
+
+aside {
+    border-left: 1px solid #e0e0e0;
+    padding-left: 15px;
+}
+
+.bordfoot{
+    padding: 20px ;
+}
+
+.para{
+    padding: 20px;
+}
+
+
 
