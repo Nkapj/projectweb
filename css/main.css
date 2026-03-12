@@ -6,7 +6,7 @@ body{
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1500px;
 }
 
 .live {
@@ -28,7 +28,7 @@ ul {
 }
 
 footer {
-    background-color: #7393b4;
+    background-color: rgb(222, 220, 220);
 }
 
 footer h3 {
@@ -218,5 +218,17 @@ aside {
     padding: 20px;
 }
 
+.calendar {
+    margin-left: 100px;
+    width: 100px;
+}
 
+.ville{
+    margin-left: 200px;
+}
+
+.datej{
+    border-radius: 50%;
+    text-align: center;
+}
 
