@@ -1,27 +1,175 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jacquard+24&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <nav>
-
+        <nav class="container navbar">
+            <div class="row">
+                <div class="col-sm-12 bg-warning">
+                    <ul class="thirdnav navbar-nav me-auto mb-2 mb-lg-0 flex-row justify-content-center gap-4">
+                        <li><a href="article.html" >LO ÚLTIMO</a></li>•
+                        <li><a href="custom.html">FORMULAIRE</a></li>•
+                        <li><a href="">POLÍTICA</a></li>•
+                        <li><a href="">ECDATA</a></li>•
+                        <li><a href="">MUNDO</a></li>•
+                        <li><a href="">LIMA</a></li>•
+                        <li><a href="">ECONOMÍA</a></li>•
+                        <li><a href="">DT</a></li>•
+                        <li><a href="">TECNO</a></li>•
+                        <li><a href="">SOMOS</a></li>•
+                        <li><a href="">JUEGOS</a></li>•
+                        <li><a href="">SA</a></li>
+                    </ul>
+                </div>
+                <div class="div-titre col-12 bg-warning d-flex align-items-center gap-5">
+                    <h2 class="titre">El Comercio</h2>
+                    <button class="btn2"><i class="bi bi-ui-checks"></i> Formulaire</button>
+                </div>
+                <div class="seconnav col-sm-12 bg-warning">
+                    <div class="col-sm-12 d-flex align-items-center justify-content-center">
+                        <button class="btn1 navbar-toggler me-5" type="button">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <ul class="firstnav navbar-nav mb-2 mb-lg-0 flex-row gap-4">
+                            <li><a href="article.html">Lo último</a></li>
+                            <li><a href="custom.html">Formulaire</a></li>
+                            <li><a href="">Elecciones</a></li>
+                            <li><a href="">Política</a></li>
+                            <li><a href="">Economía</a></li>
+                            <li><a href="">Lima</a></li>
+                            <li><a href="">Mundo</a></li>
+                            <li><a href="">Luces</a></li>
+                            <li><a href="">DT</a></li>
+                            <li><a href="">Juegos</a></li>
+                            <li><a href="">Video</a></li>
+                            <li><a href="">Podcast</a></li>
+                            <li><a href="">Newsletter</a></li>
+                            <li><a href="">Club El Comercio</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <ul class="fourthnav navbar-nav me-auto mb-2 mb-lg-0 flex-row justify-content-center gap-4">
+                        <li><a class="live" href="">EN VIVO</a></li>
+                        <li><a href="">Simula tu voto</a></li>
+                        <li><a href="">Consulta tu local de votación</a></li>
+                        <li class="separador"><a href="">Temas del día</a></li>
+                        <li><a href="">8M</a></li>
+                        <li><a href="">GNV</a></li>
+                        <li><a href="">Medio Oriente</a></li>
+                        <li><a href="">Dólar</a></li>
+                        <li><a href="">U vs Chankas</a></li>
+                        <li><a href="">Eleccione</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        
     </header>
-    <main>
+
+    <main class="container">
+
+        <section class="row">
+            <aside class="lat1 col-12 col-md-3 bg-success ">
+                <form action="" class="wid1">
+                    <div>
+                        <label for="colText">Couleur du texte</label>
+                        <input type="color" id="colText">
+                    </div>
+
+                    <div>
+                        <label for="coltitr">Couleur du titre</label>
+                        <input type="color" id="coltitr">
+                    </div>
+
+                    <div>
+                        <label for="colfond">Couleur de fond</label>
+                        <input type="color" id="colfond">
+                    </div>
+                    <button type="reset" class="btnrest">Reset</button>
+                </form>
+        
+            </aside>
+            <section class="principal col-12 col-md-6 bg-light">
+                <h3>
+                    Olympiades Inter-Home : quand le sport rassemble toutes les générations au Stade Roi Baudouin
+                </h3>
+                <h5>
+                    Ce vendredi 27 mars, des dizaines de maisons de repos se donneront rendez-vous pour la dixième édition des Olympiades Inter-Home, un événement devenu incontournable dans le paysage social et sportif bruxellois. Organisée notamment par l’asbl Papy Boom, cette journée promet énergie, convivialité et émotions fortes.
+                </h5>
+                <p>
+                    À l’origine de cette initiative, une idée simple devenue un véritable projet d’envergure. Comme l’explique Youssef Kaddar, président de l’asbl "Papy Booom" et co-organisateur de l’événement : "À l’origine, c’était entre quatre ou cinq maisons de repos. On s’est dit : pourquoi ne pas se rassembler et créer une Olympiade entre établissements ? " Depuis cette première édition en 2015, l’événement n’a cessé de grandir.
+                </p>
+                <h5>
+                    Du salon à un stade mythique
+                </h5>
+                <p>
+                    Le chemin parcouru est impressionnant. D’une rencontre modeste entre quelques établissements, les Olympiades Inter-Home se déroulent désormais dans un lieu emblématique : le Stade Roi Baudouin. "Entre le salon d’une maison de repos et le stade, il y a déjà une différence", souligne Youssef Kadar.
+                    Aujourd’hui, 24 maisons de repos participent à l’événement, soit près de 200 seniors engagés dans les épreuves. L’asbl collabore avec plusieurs sections : kinésithérapie, éducateurs spécialisés, profs de gym, étudiants, les maîtres-assistants et visiteurs. Au total, entre 500 et 700 personnes sont attendues.
+                </p>
+
+                <h4 class="align-items-center"><i>
+                    "On va les accueillir comme des stars, sur un tapis rouge, avec les confettis pour les motiver."
+                </i></h4>
+
+                <h4>
+                    Compétition, fun et esprit d’équipe
+                </h4>
+                <p>
+                    Si la convivialité est au cœur de la journée, l’esprit de compétition est bien réel. "Ce n’est pas parce qu’ils sont en maison de repos qu’ils viennent juste pour s’amuser. Ils crient, ils hurlent, ils ont envie de gagner ! Ils ont du peps, c’est Koh Lanta ! ", insiste l’organisateur.
+                    Les participants, regroupés en équipes, préparent l’événement depuis plusieurs semaines : t-shirts personnalisés, bannières, entraînements… Tout est pensé pour représenter fièrement leur résidence.
+                </p>
+
+
+            </section>
+
+            <aside class="lat2 col-12 col-md-3 bg-warning">
+                <form action="" class="wid2">
+                    <div>
+                    <label for="censure">Censure</label>
+                    <select name="cesure" id="cesure">
+                        <option value="auto">Auto</option>
+                        <option value="manual">Manual</option>
+                        <option value="none">Aucune</option>
+                    </select>
+</div>
+<div>
+                    <label for="direction">Direction</label>
+                    <select name="direction" id="direction">
+                        <option value="ltr">Gauche à droite</option>
+                        <option value="rtl">Droite à gauche</option>
+                    </select>
+</div>
+                    <button type="reset" class="btnrest">Reset</button>
+                </form>
+            </aside>
+        </section>
 
     </main>
-        <footer class="container">
-        <section class="row">
+        <footer>
+        <div class="bordfoot bg-warning d-flex justify-content-between align-items-center px-4">
+        <form action="" class=" d-flex container align-items-center gap-3">
+            <label for="Search"></label>
+            <input type="text" id="Search" placeholder="Buscar...">
+            <button type="submit" class="btn3">Enviar</button>
+            <!--- <img src="media/logo.jpg" class="logo" alt="" > --->
+        </form>
+        
+        </div>
+
+        <div class="container">
+        <div class="row love">
             <section class="col">
-                <h3>Secciones</h3>
+                <h6>Secciones</h6>
                 <ul>
                     <li><a href="">Portada</a></li>
                     <li><a href="">Últimas noticias</a></li>
@@ -37,13 +185,12 @@
                 </ul>
             </section>
             <section class="col">
-                <h3>Suscríbete</h3>
+                <h6>Suscríbete</h6>
                 <ul>
                     <li><a href="">Suscripciones</a></li>
                     <li><a href="">Administrar cuenta</a></li>
                 </ul>
-
-                <h3>Newsletters</h3>
+                <h6>Newsletters</h6>
                 <ul>
                     <li><a href="">Todos</a></li>
                     <li><a href="">Buenos días</a></li>
@@ -54,9 +201,9 @@
                 </ul>
             </section>
             <section class="col-md-3">
-                <h3>Acerca de El Comercio</h3>
+                <h6>Acerca de El Comercio</h6>
                 <ul>
-                    <li><a href="">Términos y condiciones</a></li>
+                    <li><a href="">Términos y conditions</a></li>
                     <li><a href="">Principios rectores</a></li>
                     <li><a href="">Buenas prácticas</a></li>
                     <li><a href="">Anuncia con nosotros</a></li>
@@ -66,7 +213,7 @@
                 </ul>
             </section>
             <section class="col">
-                <h3>Grupo El Comercio</h3>
+                <h6>Grupo El Comercio</h6>
                 <ul>
                     <li><a href="">GEC</a></li>
                     <li><a href="">Gestión</a></li>
@@ -85,10 +232,22 @@
                     <li><i class="bi bi-newspaper"></i> <a href="">Edición impresa</a></li>
                 </ul>
             </section>
-            
-        </section>
-
-
+            <section>
+                <ul class="d-flex gap-4">
+                    <li><a href="">Síguenos</a></li>
+                    <li><i class="bi bi-facebook"></i></li>
+                    <li><i class="bi bi-twitter"></i></li>
+                    <li><i class="bi bi-instagram"></i></li>
+                    <li><i class="bi bi-youtube"></i></li>
+                    <li><i class="bi bi-linkedin"></i></li>
+                    <li><i class="bi bi-newspaper"></i></li>
+                    <li>Descarga nuestra App</li>
+                    <button class="app">App Store</button>
+                    <button class="play">Google Play</button>
+                </ul>
+            </section>
+        </div>
+        </div>
     </footer>
     
     
