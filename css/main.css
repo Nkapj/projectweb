@@ -205,7 +205,7 @@ h2, h3, h4 {
     margin-bottom: 15px;
 }
 
-aside {
+aside.home {
     border-left: 1px solid #e0e0e0;
     padding-left: 15px;
 }
@@ -241,7 +241,7 @@ aside {
     margin-bottom: 20px;
 }
 
-.principal p{
+.principal p,h5{
     padding: 10px;
 }
 
