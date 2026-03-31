@@ -199,7 +199,7 @@ h2, h3, h4 {
 
 .liste li {
     margin-bottom: 10px;
-}
+    }
 
 .ultimo{
     margin-bottom: 15px;
@@ -295,7 +295,9 @@ aside.home {
     margin: 30px;
 }
 
-
+.blocOil{
+    margin-top: 20px;
+}
 
 .wid1{
     background: #f5f2f2;
