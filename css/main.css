@@ -2,9 +2,6 @@ body{
     overflow-x: hidden;
 }
 
-.breakTitle{
-    font-family: Arial, Helvetica, sans-serif;
-}
 .container.navbar {
     --bs-navbar-padding-y: 0;
 }
@@ -17,23 +14,42 @@ body{
     color: red;
 }
 
+.news{
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
 a {
     text-decoration: none;
     color: black;
 }
 
-.ecole {
-    width: 100%;
-    height: auto;
+h2, h3, h4 {
+    font-family: 'Helvetica', sans-serif;
 }
 
 ul {
     list-style: none;
 }
 
-footer {
-    background-color: rgb(222, 220, 220);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+main {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+section {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+footer, header {
+    background-color: #26852F;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.bordfoot{
+    background-color: #1A5B20;
+    padding: 20px ;
 }
 
 footer h3 {
@@ -41,7 +57,6 @@ footer h3 {
 }
 
 article {
-    font-family: serif;
     overflow: hidden;
     border-bottom: 1px solid #e0e0e0;
     padding-bottom: 15px;
@@ -53,13 +68,9 @@ article {
 }
 
 .titre {
-    font-family: 'UnifrakturCook', cursive;
+    font-family: 'Helvetica', sans-serif;
     font-size: 85px;
-    line-height: 1;
-}
-
-.label{
-    font-family: 'UnifrakturCook', cursive;
+    line-height: 1.2;
 }
 
 .logo{
@@ -76,7 +87,6 @@ article {
 }
 
 .btn1 {
-    border-radius: 50%;
     color: black;
     font-size: 0.8rem;
     cursor: pointer;
@@ -85,7 +95,6 @@ article {
 }
 
 .btn2 {
-    border-radius: 999px;
     border: none;
     font-size: 20px;
     font-weight: 500;
@@ -96,7 +105,6 @@ article {
 }
 
 .btn3{
-    border-radius: 999px;
     border: none;
     font-size: 15px;
     font-weight: 500;
@@ -108,13 +116,12 @@ article {
 }
 
 .art{
-    font-family: 'Playfair Display', serif ;
+    font-family: 'Helvetica', sans-serif;
     font-size: 50px;
     padding: 20px;
 }
 
 #Search {
-    border-radius:99px;
     border: none;
     font-size: 15px;
     font-weight: 500;
@@ -125,12 +132,9 @@ article {
     padding: 10px;
 }
 
-.love{
-    padding: 20px;
-}
+
 
 .app,.play{
-    border-radius: 999px;
     border: none;
     font-size: 20px;
     font-weight: 500;
@@ -142,7 +146,7 @@ article {
 
 .allana{
     object-fit: cover;
-    height: 80%;
+    height: 100%;
     width: 50%;
 }
 
@@ -155,7 +159,7 @@ article {
 }
 
 .thirdnav {
-    border-bottom: 1px solid #767676;
+    border-bottom: 1px solid #044220;
 }
 
 .fourthnav {
@@ -164,16 +168,13 @@ article {
 
 .separador::before {
     content: "|";
-    color: gray;
+    color: rgb(223, 50, 50);
     margin-right: 16px;
+    font-weight: bold;
 }
 
 a:hover{
     text-decoration: underline;
-}
-
-h2, h3, h4 {
-    font-family: 'Playfair Display', serif;
 }
 
 .red {
@@ -181,9 +182,18 @@ h2, h3, h4 {
 }
 
 .com {
-    color: goldenrod;
+    color: #1A5B20;
     font-weight: bold;
-    font-size: 11px;
+    font-size: 13px;
+    font-family: 'Times New Roman', serif;
+}
+
+.descrip, .para{
+    font-family: 'Times New Roman', serif;
+}
+
+.para{
+    padding: 20px;
 }
 
 .ecole,.coulor{
@@ -199,11 +209,11 @@ h2, h3, h4 {
 }
 
 .edi{
-    color: goldenrod;
+    color: #1A5B20;
 }
 
 .liste li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     }
 
 .ultimo{
@@ -215,17 +225,10 @@ aside.home {
     padding-left: 15px;
 }
 
-.bordfoot{
-    padding: 20px ;
-}
-
-.para{
-    padding: 20px;
-}
-
 .calendar {
-    margin-left: 100px;
-    width: 100px;
+    margin-right: 250px;
+    width: 150px;
+    font-size: 25px;
 }
 
 .ville{
@@ -233,17 +236,12 @@ aside.home {
 }
 
 .datej{
-    border-radius: 50%;
     text-align: center;
+    background-color: #27a134;
 }
 
 .principal{
     padding: 30px;
-}
-
-.titreP{
-    text-align: center;
-    margin-bottom: 20px;
 }
 
 .principal p,h5{
@@ -256,6 +254,7 @@ aside.home {
     vertical-align: middle;
     margin-bottom: 10px;
     margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .lat1 div, .lat2 div {
@@ -275,7 +274,6 @@ aside.home {
 }
 
 .btnrest{
-    border-radius: 999px;
     border: none;
     font-size: 15px;
     font-weight: 500;
@@ -304,14 +302,10 @@ aside.home {
     margin-top: 20px;
 }
 
-.wid1{
+.wid1, .wid2 {
     background: #f5f2f2;
     margin-top: 20px;
     padding: 10px;
 }
-.wid2{
-    background: #f5f2f2;
-    margin-top: 20px;
-    padding: 10px;
-}
+
 

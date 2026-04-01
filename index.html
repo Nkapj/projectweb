@@ -5,20 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jacquard+24&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <title>El Comercio - Accueil</title>
 </head>
 <body>
     <header>
         <nav class="container navbar">
             <div class="row">
-                <div class="col-sm-12 bg-warning">
+                <div class="col-sm-12">
                     <ul class="thirdnav navbar-nav me-auto mb-2 mb-lg-0 flex-row justify-content-center gap-4">
-                        <li><a href="index.html" >LO ÚLTIMO</a></li>•
-                        <li><a href="article.html">POLÍTICA</a></li>•
+                        <li><a href="index.html" >ACCUEIL</a></li>•
+                        <li><a href="article.html">ARTICLE</a></li>•
                         <li><a href="custom.html">FORMULAIRE</a></li>•
                         <li><a href="">ECDATA</a></li>•
                         <li><a href="">MUNDO</a></li>•
@@ -31,18 +29,18 @@
                         <li><a href="">SA</a></li>
                     </ul>
                 </div>
-                <div class="div-titre col-12 bg-warning d-flex align-items-center gap-5">
-                    <h2 class="titre">El Comercio</h2>
+                <div class="div-titre col-12 d-flex align-items-center gap-5">
+                    <h2 class="titre ">El Comercio</h2>
                     <button class="btn2"><i class="bi bi-ui-checks"></i> Formulaire</button>
                 </div>
-                <div class="seconnav col-sm-12 bg-warning">
+                <div class="seconnav col-sm-12">
                     <div class="col-sm-12 d-flex align-items-center justify-content-center">
                         <button class="btn1 navbar-toggler me-5" type="button">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <ul class="firstnav navbar-nav mb-2 mb-lg-0 flex-row gap-4">
-                            <li><a href="index.html">Lo último</a></li>
-                            <li><a href="article.html">Elecciones</a></li>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="article.html">Article</a></li>
                             <li><a href="custom.html">Formulaire</a></li>
                             <li><a href="">Política</a></li>
                             <li><a href="">Economía</a></li>
@@ -58,9 +56,9 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-12">
+                <div class="news col-sm-12">
                     <ul class="fourthnav navbar-nav me-auto mb-2 mb-lg-0 flex-row justify-content-center gap-4">
-                        <li><a class="live" href="">EN VIVO</a></li>
+                        <li><a class="live fw-bold " href="" >EN VIVO</a></li>
                         <li><a href="">Simula tu voto</a></li>
                         <li><a href="">Consulta tu local de votación</a></li>
                         <li class="separador"><a href="">Temas del día</a></li>
@@ -77,14 +75,18 @@
     </header>
 
     <main>
+        
         <section>
+            
             <div class="container">
-                <div class="row">
+                <div class="row ">
+                    
                     <article class="col-12 col-md-9 d-flex flex-column align-items-center flex-md-row">
-                        <div class="p-3">
-                            <p class="com">CASO PATRICIA BENAVIDES</p>
+                        <div>
+                            <h1 class="col-12 mb-5 red text-center">• Breaking News</h1>
+                            <p ><a class="com" href="">CASO PATRICIA BENAVIDES</a></p>
                             <h2 class="breakTitle"><a href="">Detienen a siete personas y allanan 21 inmuebles en operación "Valkiria XI"</a></h2>
-                            <p>Fiscales del equipo especial que dirige Marita Barreto realizaron la operación con apoyo de más de 100 policías. Redacción EC</p>
+                            <p class="descrip">Fiscales del equipo especial que dirige Marita Barreto realizaron la operación con apoyo de más de 100 policías. Redacción EC</p>
                         </div>
                         <img src="media/allana.jpg" class="allana img-fluid" alt="">
                     </article>
@@ -92,7 +94,7 @@
                     <aside class=" home col-12 col-md-3">
                         <article>
                             <h4 class="edi">🏠 EDITORIAL</h4>
-                            <p class="fs-5"> <span class="breakTitle fw-bold"><a href="">La dignidad final:</span> Ana Estrada accedió al procedimiento médico de eutanasia, de acuerdo con une decisión que tomó.</a></p>
+                            <p class="descrip fs-5"> <span class="breakTitle fw-bold"><a href="">La dignidad final:</span> Ana Estrada accedió al procedimiento médico de eutanasia, de acuerdo con une decisión que tomó.</a></p>
                         </article>
                         <article>
                             <p ><a href="" class="com">VECINOS DE LA CIUDAD SATÉLITE</a></p>
@@ -116,7 +118,7 @@
                         <img src="media/ecole.avif" class="ecole img-fluid" alt="">
                         <p class="com observ"><a href="" class="com">Observaciones legales y más</a></p>
                         <h3 class="breakTitle"><a href="">Minedu confirma clases virtuales por crisis de GNV, pero establece excepciones: ¿Cuáles son?</a></h3>
-                        <p>Erick Urbina, abogado constitucionalista, sostiene que una resolución ministerial no es la norma adecuada para determinar la medida.</p>
+                        <p class="descrip">Erick Urbina, abogado constitucionalista, sostiene que una resolución ministerial no es la norma adecuada para determinar la medida.</p>
                         <p><a href="" class="com">José Cayetano Chávez · 09:38</a></p>
                     </article>
 
@@ -148,15 +150,13 @@
                     </div>
 
                     <aside class="home liste col-12 col-md-3">
-                        <h3 class="red ultimo">LO ÚLTIMO</h3>
+                        <h3 class="edi ultimo">LO ÚLTIMO</h3>
                         <ul>
-                            <li><span class="red breakTitle">_09:14</span> <a href="">Día del Cómic Festival: La Banda Sinfónica de Comas participará del evento</a></li>
-                            <li><span class="red breakTitle">_09:07</span> <a href="">Operativo Valkiria: ¿Por qué fueron detenidos los exasesores de Patricia Benavides?</a></li>
-                            <li><span class="red breakTitle">_09:06</span> <a href="">Apuestas, Alianza Lima vs. Colo Colo: cuotas del partido por la Copa Libertadores</a></li>
-                            <li><span class="red breakTitle">_09:05</span> <a href="">Retiro CTS 2024: ¿Qué falta...</a></li>
-                            <li><span class="red breakTitle">_08:50</span> <a href="">Precio del dólar en Perú retrocede más de 1% tras reducción de tensiones en Medio Oriente</a></li>
-                            <li><span class="red breakTitle">_08:45</span> <a href="">¿A qué hora juega y qué canal transmite Philadelphia vs. Club América hoy por Concachampions 2026?.</a></li>
-                            <li><span class="red breakTitle">_08:30</span> <a href="">Con una prosa hermosísima y extraordinaria sensibilidad: llega “Pan de ángeles”, lo nuevo de Patti Smith</a></li>
+                            <li class="descrip"><span class="red breakTitle">_09:14</span> <a href="">Día del Cómic Festival: La Banda Sinfónica de Comas participará del evento</a></li>
+                            <li class="descrip"><span class="red breakTitle">_09:07</span> <a href="">Operativo Valkiria: ¿Por qué fueron detenidos los exasesores de Patricia Benavides?</a></li>
+                            <li class="descrip"><span class="red breakTitle">_08:50</span> <a href="">Precio del dólar en Perú retrocede más de 1% tras reducción de tensiones en Medio Oriente</a></li>
+                            <li class="descrip"><span class="red breakTitle">_08:45</span> <a href="">¿A qué hora juega y qué canal transmite Philadelphia vs. Club América hoy por Concachampions 2026?.</a></li>
+                            <li class="descrip"><span class="red breakTitle">_08:30</span> <a href="">Con una prosa hermosísima y extraordinaria sensibilidad: llega “Pan de ángeles”, lo nuevo de Patti Smith</a></li>
                         </ul>
                     </aside>
                 </div>
@@ -164,14 +164,10 @@
         </section>
 
         <!-- bloc 3 US-iran -->
-        <section class="bloc3 container">
+        <section class="bloc3 container ">
             <div class="row">
                 <article class="bloc3Art col-12 col-md-3 p-0">
                     <div class="bloc3Cadr row align-items-center">
-                        <!-- <div class="col-7">
-                            <img src="media/f" class="coulor img-fluid" alt="">
-                            <p class="com"><a href="" class="com">Fujimori en empate técnico con López Aliaga</a></p>
-                        </div> -->
                         <div class="col">
                             <h4 class="breakTitle"><a href="">The Saudis found an escape hatch for some of the world’s oil. The Houthis could slam it shut</a></h4>
                             <p><a href="" class="com">Alexander Villarroel Zurita · 11:31</a></p>
@@ -180,10 +176,6 @@
                 </article>
                 <article class="bloc3Art col-12 col-md-3 p-0">
                     <div class="bloc3Cadr row align-items-center">
-                        <!-- <div class="col-7">
-                            <img src="media/" class="bonbon img-fluid" alt="">
-                            <p><a href="" class="com">Revuelo en las redes sociales</a></p>
-                        </div> -->
                         <div class="col">
                             <h4 class="breakTitle"><a href="">Why the nation trying to broker US-Iran peace talks risks being drawn into the conflict</a></h4>
                             <p><a href="" class="com">Alejandra Garboza · 11:00</a></p>
@@ -192,10 +184,6 @@
                 </article>
                 <article class="bloc3Art col-12 col-md-3 p-0">
                     <div class="bloc3Cadr row align-items-center">
-                        <!-- <div class="col-7">
-                            <img src="media/" class="bonbon img-fluid" alt="">
-                            <p><a href="" class="com">Revuelo en las redes sociales</a></p>
-                        </div> -->
                         <div class="col">
                             <h4 class="breakTitle"><a href="">Trump helped build the Middle East’s AI ambitions. Could his war break them?</a></h4>
                             <p><a href="" class="com">Lisa Eadicicco · 11:20</a></p>
@@ -204,10 +192,6 @@
                 </article>
                 <article class="bloc3Art col-12 col-md-3 p-0">
                     <div class="bloc3Cadr row align-items-center">
-                        <!-- <div class="col-7">
-                            <img src="media/" class="bonbon img-fluid" alt="">
-                            <p><a href="" class="com">Revuelo en las redes sociales</a></p>
-                        </div> -->
                         <div class="col">
                             <h4 class="breakTitle"><a href="">China bans storing cremated remains in empty 'bone ash apartments'</a></h4>
                             <p><a href="" class="com">Bertold Braun · 12:40</a></p>
@@ -216,7 +200,7 @@
                 </article>
 
                 <!-- dernier bloc oil -->
-                <article class="blocOil col-12 col-md-6 p-0">
+                <article class="blocOil col-12 col-md-6 p-0 mt-4">
                     <div class="row align-items-center">
                         <div class="col-7">
                             <img src="media/gas.avif" class="img-fluid" alt="">
@@ -228,7 +212,7 @@
                         </div>
                     </div>
                 </article>
-                <article class="blocOil col-12 col-md-6 p-0">
+                <article class="blocOil col-12 col-md-6 p-0 mt-4">
                     <div class="row align-items-center">
                         <div class="col-7">
                             <img src="media/getty.avif" class="img-fluid" alt="">
@@ -247,7 +231,7 @@
     </main>
 
 <footer >
-    <div class="bordfoot bg-warning d-flex justify-content-between align-items-center px-4">
+    <div class="bordfoot d-flex justify-content-between align-items-center px-4 mt-3">
         <form action="" class=" d-flex container align-items-center gap-3">
             <label for="Search"></label>
             <input type="text" id="Search"name="Search"  placeholder="Newsletter...">
@@ -258,7 +242,7 @@
     </div>
 
     <div class="container">
-        <div class="row love">
+        <div class="row love p-3 m-3">
             <section class="col">
                 <h6>Secciones</h6>
                 <ul>
@@ -341,6 +325,6 @@
     </div>
 </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    
 </body>
 </html>
