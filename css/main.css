@@ -132,8 +132,6 @@ article {
     padding: 10px;
 }
 
-
-
 .app,.play{
     border: none;
     font-size: 20px;
@@ -248,12 +246,6 @@ aside.home {
     padding: 10px;
 }
 
-/* .custom-page {
-    width: 100%;
-    font-size: 0;
-    margin-top: 20px;
-} */
-
 .lat1,
 .principal,
 .lat2 {
@@ -299,7 +291,6 @@ aside.home {
     background: #000;
     color: white;
     margin-top: 30px;
-    
 }
 
 .bloc3{
