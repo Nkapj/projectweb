@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jacquard+24&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
+    <title>El Comercio - Formulaire</title>
 </head>
 <body>
     <header>
@@ -82,17 +82,17 @@
                 <form action="" class="wid1">
                     <div>
                         <label for="colText">Couleur du texte</label>
-                        <input type="color" id="colText">
+                        <input type="color" id="colText" name="colText">
                     </div>
 
                     <div>
-                        <label for="coltitr">Couleur du titre</label>
-                        <input type="color" id="coltitr">
+                        <label for="colTitr">Couleur du titre</label>
+                        <input type="color" id="colTitr" name="colTitr">
                     </div>
 
                     <div>
-                        <label for="colfond">Couleur de fond</label>
-                        <input type="color" id="colfond">
+                        <label for="colFond">Couleur de fond</label>
+                        <input type="color" id="colFond" name="colFond">
                     </div>
                     <button type="reset" class="btnrest">Reset</button>
                 </form>
@@ -133,20 +133,24 @@
             <aside class="lat2 col-12 col-md-3 ">
                 <form action="" class="wid2">
                     <div>
-                    <label for="censure">Censure</label>
-                    <select name="cesure" id="cesure">
-                        <option value="auto">Auto</option>
-                        <option value="manual">Manual</option>
-                        <option value="none">Aucune</option>
-                    </select>
-</div>
-<div>
-                    <label for="direction">Direction</label>
-                    <select name="direction" id="direction">
-                        <option value="ltr">Gauche à droite</option>
-                        <option value="rtl">Droite à gauche</option>
-                    </select>
-</div>
+                        <label for="censure">Censure</label>
+                        <select name="cesure" id="cesure">
+                            <option value="auto">Auto</option>
+                            <option value="manual">Manual</option>
+                            <option value="none">Aucune</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="direction">Direction</label>
+                        <select name="direction" id="direction">
+                            <option value="ltr">Gauche à droite</option>
+                            <option value="rtl">Droite à gauche</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="taillePolice">Taille de la police</label>
+                        <input type="range" id="taillePolice" name="taillePolice">
+                    </div>
                     <button type="reset" class="btnrest">Reset</button>
                 </form>
             </aside>
@@ -157,7 +161,7 @@
         <div class="bordfoot bg-warning d-flex justify-content-between align-items-center px-4">
         <form action="" class=" d-flex container align-items-center gap-3">
             <label for="Search"></label>
-            <input type="text" id="Search" placeholder="Newsletter...">
+            <input type="text" id="Search" name="Search" placeholder="Newsletter...">
             <button type="submit" class="btn3">subscribe</button>
             <!--- <img src="media/logo.jpg" class="logo" alt="" > --->
         </form>
