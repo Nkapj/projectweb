@@ -27,7 +27,12 @@ Source :
 https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css
 
 Utilisation :
-Les icônes Bootstrap ont été utilisées dans le header, le footer et certains boutons pour enrichir l’interface visuelle du site.
+Les icônes Bootstrap ont été utilisées dans le header, le footer (résaux sociaux et autres ( Videos
+ Podcast
+ Newsletters
+ Juegos
+ Club El Comercio
+ Edición impres) ).
 
 === REMARQUE SUR LA STRUCTURE HTML ===
 

@@ -7,7 +7,7 @@ body{
 }
 
 .container {
-    max-width: 1500px;
+    max-width: 1300px;
 }
 
 .live {
@@ -63,7 +63,7 @@ article {
 }
 
 .article-content{
-    width: 800px;
+    width: 700px;
     margin: 0 auto;
 }
 
@@ -224,7 +224,7 @@ aside.home {
 }
 
 .calendar {
-    margin-right: 250px;
+    margin-right: 200px;
     width: 150px;
     font-size: 25px;
 }
