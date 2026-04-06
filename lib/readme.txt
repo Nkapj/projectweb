@@ -10,10 +10,12 @@ Bootstrap a été utilisé pour la mise en page responsive du site, en particuli
 - l’alignement des blocs
 - certains espacements et utilitaires
 - la structure du header et de certaines sections
+La classe row est utilisée pour créer une ligne dans le système de grille de Bootstrap. 
 
-Remarque :
+
 L’utilisation de Bootstrap implique la présence de balises <div> liées à son système de grille.
-Ces <div> ne sont pas utilisés pour remplacer abusivement les balises HTML5, mais principalement pour organiser les colonnes et lignes nécessaires à la mise en page responsive.
+Ces <div> ne sont pas utilisés pour remplacer abusivement les balises HTML5, mais principalement 
+pour organiser les colonnes et lignes nécessaires à la mise en page responsive.
 
 2. Bootstrap Bundle 5.3.8
 Source :
