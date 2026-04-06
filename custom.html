@@ -91,7 +91,11 @@
                         <label for="colFond">Couleur de fond</label>
                         <input type="color" id="colFond" name="colFond">
                     </div>
-                    <button type="reset" class="btnrest">Reset</button>
+                    <div>
+                        <label for="interligne">Interligne</label>
+                        <input type="range" id="interligne" name="interligne">
+                    </div>
+                    <button type="reset" class="btnrest w-100">Reset</button>
                 </form>
         
             </aside>
@@ -149,7 +153,14 @@
                         <label for="taillePolice">Taille de la police</label>
                         <input type="range" id="taillePolice" name="taillePolice">
                     </div>
-                    <button type="reset" class="btnrest">Reset</button>
+                    <div>
+                        <label for="majuscule">Majuscules</label>
+                        <select id="majuscule" name="majuscule">
+                            <option value="normal">Normal</option>
+                            <option value="uppercase">Majuscules</option>
+                        </select>
+                    </div>
+                    <button type="reset" class="btnrest w-100">Reset</button>
                 </form>
             </aside>
         </section>
