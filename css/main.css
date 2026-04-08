@@ -1,22 +1,11 @@
-body{
+body {
     overflow-x: hidden;
 }
 
-.container.navbar {
-    --bs-navbar-padding-y: 0;
-}
+/* ── TYPOGRAPHIE ───────────────────────────────────────────── */
 
-.container {
-    max-width: 1300px;
-}
-
-.live {
-    color: red;
-}
-
-.news{
-    background-color: #fff;
-    padding-bottom: 20px;
+h2, h3, h4 {
+    font-family: 'Helvetica', sans-serif;
 }
 
 a {
@@ -24,12 +13,18 @@ a {
     color: black;
 }
 
-h2, h3, h4 {
-    font-family: 'Helvetica', sans-serif;
+a:hover {
+    text-decoration: underline;
 }
 
-ul {
-    list-style: none;
+/* ── LAYOUT GÉNÉRAL ────────────────────────────────────────── */
+
+.container {
+    max-width: 1300px;
+}
+
+.container.navbar {
+    --bs-navbar-padding-y: 0;
 }
 
 main {
@@ -42,29 +37,63 @@ section {
     padding-top: 0;
 }
 
-footer, header {
-    background-color: #26852F;
-    font-family: 'Roboto Mono', monospace;
+ul {
+    list-style: none;
 }
 
-.bordfoot{
-    background-color: #1A5B20;
-    padding: 20px ;
+/* ── HEADER / FOOTER ───────────────────────────────────────── */
+
+header, footer {
+    background-color: #26852F;
+    font-family: 'Roboto Mono', monospace;
 }
 
 footer h3 {
     margin-bottom: 20px;
 }
 
-article {
-    overflow: hidden;
-    border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 15px;
+.bordfoot {
+    background-color: #1A5B20;
+    padding: 20px;
 }
 
-.article-content{
-    width: 700px;
-    margin: 0 auto;
+/* ── NAVIGATION ────────────────────────────────────────────── */
+
+.thirdnav {
+    border-bottom: 1px solid #044220;
+}
+
+.firstnav li a {
+    font-size: 15px;
+}
+
+.thirdnav li a {
+    font-size: 14px;
+}
+
+.fourthnav {
+    padding: 15px 0;
+}
+
+.seconnav {
+    padding: 10px;
+}
+
+.live {
+    color: red;
+}
+
+.separador::before {
+    content: "|";
+    color: rgb(223, 50, 50);
+    margin-right: 16px;
+    font-weight: bold;
+}
+
+/* ── HEADER TITRE ──────────────────────────────────────────── */
+
+.div-titre {
+    padding: 20px;
 }
 
 .titre {
@@ -73,17 +102,11 @@ article {
     line-height: 1.2;
 }
 
-.logo{
+.logo {
     width: 100px;
 }
 
-.div-titre {
-    padding: 20px;
-}
-
-.seconnav {
-    padding: 10px;
-}
+/* ── BOUTONS ───────────────────────────────────────────────── */
 
 .btn1 {
     color: black;
@@ -103,7 +126,7 @@ article {
     color: white;
 }
 
-.btn3{
+.btn3 {
     border: none;
     font-size: 15px;
     font-weight: 500;
@@ -114,11 +137,28 @@ article {
     margin-left: 15px;
 }
 
-.art{
-    font-family: 'Helvetica', sans-serif;
-    font-size: 50px;
-    padding: 20px;
+.btnrest {
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    width: 80px;
+    height: 40px;
+    background: #000;
+    color: white;
+    margin-top: 30px;
 }
+
+.app, .play {
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    width: 250px;
+    height: 40px;
+    background: #000;
+    color: white;
+}
+
+/* ── SEARCH ────────────────────────────────────────────────── */
 
 #Search {
     border: none;
@@ -131,47 +171,38 @@ article {
     padding: 10px;
 }
 
-.app,.play{
-    border: none;
-    font-size: 20px;
-    font-weight: 500;
-    width: 250px;
-    height: 40px;
-    background: #000;
-    color: white;
+/* ── NEWS BAR ──────────────────────────────────────────────── */
+
+.news {
+    background-color: #fff;
+    padding-bottom: 20px;
 }
 
-.allana{
+/* ── ARTICLES (page accueil) ───────────────────────────────── */
+
+article {
+    overflow: hidden;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 15px;
+}
+
+.art {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.allana {
     object-fit: cover;
     height: 100%;
     width: 50%;
 }
 
-.firstnav li a {
-    font-size: 15px;
-}
+/* ── ARTICLE (page article.html) ───────────────────────────── */
 
-.thirdnav li a {
-    font-size: 14px;
-}
-
-.thirdnav {
-    border-bottom: 1px solid #044220;
-}
-
-.fourthnav {
-    padding: 15px 0;
-}
-
-.separador::before {
-    content: "|";
-    color: rgb(223, 50, 50);
-    margin-right: 16px;
-    font-weight: bold;
-}
-
-a:hover{
-    text-decoration: underline;
+.article-content {
+    width: 700px;
+    margin: 0 auto;
 }
 
 .red {
@@ -185,15 +216,15 @@ a:hover{
     font-family: 'Times New Roman', serif;
 }
 
-.descrip, .para{
+.descrip, .para {
     font-family: 'Times New Roman', serif;
 }
 
-.para{
+.para {
     padding: 20px;
 }
 
-.ecole,.coulor{
+.ecole, .coulor {
     margin-top: 10px;
 }
 
@@ -205,15 +236,15 @@ a:hover{
     padding-top: 20px;
 }
 
-.edi{
+.edi {
     color: #1A5B20;
 }
 
 .liste li {
     margin-bottom: 15px;
-    }
+}
 
-.ultimo{
+.ultimo {
     margin-bottom: 15px;
 }
 
@@ -228,39 +259,47 @@ aside.home {
     font-size: 25px;
 }
 
-.ville{
+.ville {
     margin-left: 200px;
 }
 
-.datej{
+.datej {
     text-align: center;
     background-color: #27a134;
 }
 
-.principal{
-    padding: 30px;
-}
 
-.principal p,h5{
-    padding: 10px;
+
+.custom-layout {
+    width: 100%;
+    font-size: 0;        
+    white-space: nowrap;
 }
 
 .lat1,
-.principal,
-.lat2 {
+.lat2,
+.principal {
     display: inline-block;
     vertical-align: top;
     font-size: 16px;
+    white-space: normal;
+    min-height: 600px;   
 }
 
-.lat1,
+.lat1 {
+    
+    background-color: #39753f;
+}
+
 .lat2 {
-    width: 25%;
+
+    background-color: red;
 }
 
 .principal {
-    width: 50%;
     padding: 30px;
+    overflow-y: auto;       
+    max-height: 800px;       
 }
 
 .lat1 div, .lat2 div {
@@ -268,10 +307,9 @@ aside.home {
     font-weight: bold;
     margin-bottom: 10px;
     margin-top: 20px;
-    
 }
 
-.lat1 label{
+.lat1 label {
     width: 150px;
     font-weight: bold;
 }
@@ -281,38 +319,30 @@ aside.home {
     font-weight: bold;
 }
 
-.btnrest{
-    border: none;
-    font-size: 15px;
-    font-weight: 500;
-    width: 80px;
-    height: 40px;
-    background: #000;
-    color: white;
-    margin-top: 30px;
-}
-
-.bloc3{
-    margin-top: 10px;
-}
-
-.bloc3Art{
-    background: #f5f2f2;
-    margin-bottom: 20px;
-}
-
-.bloc3Cadr{
-    margin: 30px;
-}
-
-.blocOil{
-    margin-top: 20px;
-}
-
 .wid1, .wid2 {
-    background: #f5f2f2;
     margin-top: 20px;
     padding: 10px;
 }
 
 
+
+.principal p, h5 {
+    padding: 10px;
+}
+
+.bloc3 {
+    margin-top: 10px;
+}
+
+.bloc3Art {
+    background: #f5f2f2;
+    margin-bottom: 20px;
+}
+
+.bloc3Cadr {
+    margin: 30px;
+}
+
+.blocOil {
+    margin-top: 20px;
+}
