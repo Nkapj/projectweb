@@ -38,6 +38,10 @@ Les icônes Bootstrap ont été utilisées dans le header, le footer (résaux so
 
 === REMARQUE SUR LA STRUCTURE HTML ===
 
+Layout custom.html
+inline-block pour les 3 colonnes (consigne 18). Bootstrap gère le responsive via les classes col-
+(consigne 19 interdit @media). overflow-y: auto sur .principal pour limiter la hauteur (consigne 18).
+
 
 Les balises <div> ont été limitées autant que possible.
 Lorsqu’elles sont présentes, c’est principalement :
